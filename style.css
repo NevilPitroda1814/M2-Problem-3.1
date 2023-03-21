@@ -1,0 +1,55 @@
+* {
+    font-family: serif, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url('solar-system-animation.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+input ,select{
+    border: 1px solid #020917;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+ol {
+    list-style: upper-alpha;
+    color: white;
+}
+
+ol li {
+    margin: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+.quiz-container{
+    width: 400px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-top: 10%;
+    background-color: rgba(128, 128, 128, 0.479);
+    padding: 5px;
+}
+#next_btn{
+    width: 60px;
+    padding: 5px 10px 5px 10px;
+    float: right;
+    background-color: #020917;
+    border-radius: 5px;
+    border: #020917;
+    color: white;
+}
+h2 {
+    color: white;
+}
+#quetion{
+    width: 350px;
+}

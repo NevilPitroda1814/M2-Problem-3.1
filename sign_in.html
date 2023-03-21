@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Sign-in</title>
+    <link rel="icon" type="image/x-icon" href="quiz.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- Style  -->
+    <style>
+        body {
+            background-image: url('solar-system-animation.svg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            color: white;
+        }
+
+        #sing-in_form {
+            border: 1px solid white;
+            margin-left: 38%;
+            margin-top: 10%;
+            margin-right: 38%;
+            padding: 20px;
+            border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.282);
+        }
+
+        input {
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #020917;
+        }
+
+        #sbmt {
+            cursor: pointer;
+            border: 1px solid #020917;
+            color: white;
+            background-color: #020917;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="sing-in_form" action="index.html" onsubmit="store()">
+        <h3 class="sing-in_title">Sing-in</h3>
+        <input type="text" name="username" id="usernm" placeholder="UserName" required>
+        <br><br>
+        <!-- <input type="number" name="noofquiz" id="noofquiz" placeholder="Enter No of Quiz" required>
+        <br><br> -->
+        <input type="text" name="quizname" id="quizname" placeholder="Enter Quiz Name" required>
+        <br><br>
+        <center>
+            <input type="submit" name="submit" value="Submit" id="sbmt" >
+        </center>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
